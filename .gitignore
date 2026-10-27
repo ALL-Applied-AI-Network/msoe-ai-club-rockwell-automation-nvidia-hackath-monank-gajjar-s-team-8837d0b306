@@ -1,0 +1,32 @@
+# Private emails and credentials: never commit
+mails/
+*.msg
+.env
+.env.*
+*.pem
+*.key
+id_*
+
+# Datasets and generated data (too large for git; raw data stays untouched)
+data/
+
+# Model weights, checkpoints and run outputs
+models/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS and Office temp files
+Thumbs.db
+.DS_Store
+~$*
